@@ -43,7 +43,7 @@ job-network/
  ## Installation
  1. Clone repository
     ```bash
-    git clone https://github.com/lisan-5/job-network.git
+    git clone https://github.com/lisan-5/Job-network.git
     cd job-network
     ```
  2. Install PHP dependencies
