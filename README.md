@@ -18,7 +18,7 @@
 - Tailwind CSS for styling
 - Alpine.js for interactive components
 - Git for version control
-- Mailtrap (or your preferred SMTP service) for email testing
+- Mailtrap for email testing
 
 ## Project Structure
 ```text
