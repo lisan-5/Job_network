@@ -13,10 +13,32 @@
  - Responsive UI with Tailwind CSS and Alpine.js (dark mode)
 
  ## Tech Stack
- - PHP 8+, Laravel Framework
- - MySQL (or Postgres)
- - Tailwind CSS for styling
- - Alpine.js for interactive components
+- PHP 8+, Laravel Framework
+- MySQL (or Postgres)
+- Tailwind CSS for styling
+- Alpine.js for interactive components
+- Git for version control
+- Mailtrap (or your preferred SMTP service) for email testing
+
+## Project Structure
+```text
+job-network/
+├── app/                  # Application code (Controllers, Models, Policies, Mail, Providers)
+├── bootstrap/            # Framework bootstrap files
+├── config/               # Application configuration
+├── database/             # Migrations and seeders
+├── public/               # Public web root (index.php, assets)
+├── resources/            # Views (Blade), CSS, JS
+│   ├── views/
+│   │   ├── components/
+│   │   ├── jobs/
+│   │   └── auth/
+│   └── js/, css/
+├── routes/               # HTTP route definitions (web.php, api.php)
+├── storage/              # Logs, cache, file uploads
+├── tests/                # Feature and Unit tests
+└── README.md             # Project documentation
+```
 
  ## Installation
  1. Clone repository
